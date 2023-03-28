@@ -3,3 +3,5 @@ git status -> estado de los archivos
 git branch -> muestra ramas existentes en repositorio
 git branch -r -> muestra ramas remotas existentes en repositorio
 git branch -a -> muestra TODAS las ramas, tanto remotas como locales
+
+git log -> muesta contenido de los commits 
