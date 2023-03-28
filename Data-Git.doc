@@ -1,5 +1,5 @@
 git status -> estado de los archivos
 
-git add 'nombre_archivo'/. -> agrega archivos al siguiente estado
-git commit -m "nombre_mensaje" -> agrega mensaje a archivo(s) preparados y futuro por confirmar
-git push -> envia archivo(s) al repositorio remoto
+git branch -> muestra ramas existentes en repositorio
+git branch -r -> muestra ramas remotas existentes en repositorio
+git branch -a -> muestra TODAS las ramas, tanto remotas como locales
