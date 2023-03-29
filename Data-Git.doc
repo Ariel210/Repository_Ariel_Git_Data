@@ -5,3 +5,5 @@ git branch -r -> muestra ramas remotas existentes en repositorio
 git branch -a -> muestra TODAS las ramas, tanto remotas como locales
 
 git log -> muesta contenido de los commits 
+git log --oneline -> muestra los commits en una linea
+git log --oneline --graph -> muestra contenido de los commits en una linea y de forma gráfica
