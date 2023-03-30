@@ -1,3 +1,6 @@
 git add 'nombre_archivo'/. -> agrega archivos al siguiente estado
 git commit -m "nombre_mensaje" -> agrega mensaje a archivo(s) preparados y futuro por confirmar
 git push -> envia archivo(s) al repositorio remoto
+
+git checkout 'nombre_rama'
+git branch -d 'nombre_rama'
