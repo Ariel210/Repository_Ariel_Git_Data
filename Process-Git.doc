@@ -1,6 +1,12 @@
+# 1.0 - Proceso de trabajo básico en git
 git add 'nombre_archivo'/. -> agrega archivos al siguiente estado
 git commit -m "nombre_mensaje" -> agrega mensaje a archivo(s) preparados y futuro por confirmar
 git push -> envia archivo(s) al repositorio remoto
 
+# 2.0
 git checkout 'nombre_rama'
 git branch -d 'nombre_rama'
+
+# 3.0 - Crear ramas - Dos Formas:
+1 - git checkout -b 'nombre_rama'
+2 - git branch 'nombre_rama' + git checkout 'nombre_rama'
