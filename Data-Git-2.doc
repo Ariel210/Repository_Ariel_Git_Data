@@ -1,1 +1,3 @@
 git reflog ->  examina un registro
+
+git show-branch -> resumen de todas las ramas que hay en un proyecto junto con las modificaciones o commits
