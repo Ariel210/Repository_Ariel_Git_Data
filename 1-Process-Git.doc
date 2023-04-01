@@ -10,3 +10,8 @@ git branch -d 'nombre_rama'
 # 3.0 - Procesos para crear ramas - Dos Formas:
 1 - git checkout -b 'nombre_rama'
 2 - git branch 'nombre_rama' + git checkout 'nombre_rama'
+
+# 4.0 - Proceso para eliminar archivo
+git rm 'nombre_archivo'
+git commit -m 'nombre_mensaje'
+git push
