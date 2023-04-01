@@ -3,15 +3,17 @@ git add 'nombre_archivo'/. -> agrega archivos al siguiente estado
 git commit -m "nombre_mensaje" -> agrega mensaje a archivo(s) preparados y futuro por confirmar
 git push -> envia archivo(s) al repositorio remoto
 
-# 2.0 - Proceso para borrar de forma local
-git checkout 'nombre_rama'
-git branch -d 'nombre_rama'
+# 2.0 - Proceso para eliminar archivo
+git rm 'nombre_archivo'
+git commit -m 'nombre_mensaje'
+git push
+
+-------------------------------------------------------------------
 
 # 3.0 - Procesos para crear ramas - Dos Formas:
 1 - git checkout -b 'nombre_rama'
 2 - git branch 'nombre_rama' + git checkout 'nombre_rama'
 
-# 4.0 - Proceso para eliminar archivo
-git rm 'nombre_archivo'
-git commit -m 'nombre_mensaje'
-git push
+# 4.0 - Proceso para borrar de forma local
+git checkout 'nombre_rama'
+git branch -d 'nombre_rama'
