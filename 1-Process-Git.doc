@@ -1,4 +1,4 @@
-# 1.0 - Proceso de trabajo básico en git
+# 1.0 - Proceso/flujo de trabajo básico en git
 git add 'nombre_archivo'/. -> agrega archivos al siguiente estado
 git commit -m "nombre_mensaje" -> agrega mensaje a archivo(s) preparados y futuro por confirmar
 git push -> envia archivo(s) al repositorio remoto
@@ -16,4 +16,7 @@ git push
 
 # 4.0 - Proceso para borrar de forma local
 git checkout 'nombre_rama'
-git branch -d 'nombre_rama'
+git branch -d 'nombre_rama' |  git branch -D 'nombre_rama'
+
+# 5.0 - Proceso para borrar rama remota
+git push origin --delete 'nombre_rama'
