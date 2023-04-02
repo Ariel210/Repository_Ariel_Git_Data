@@ -1,4 +1,5 @@
 git status -> estado de los archivos
+git clone 'url_link' -> permite clonar una copia del repositorio remoto al local
 
 git branch -> muestra ramas existentes en repositorio
 git branch -r -> muestra ramas remotas existentes en repositorio
