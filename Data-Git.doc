@@ -11,6 +11,8 @@ git log --oneline --graph -> muestra contenido de los commits en una linea y de 
 
 
 ----------------------------
-Otros Comandos
+Otros Comandos - CMD
 ls
 cd
+mkdir
+cls
