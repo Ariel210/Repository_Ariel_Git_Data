@@ -15,8 +15,11 @@ git push
 2 - git branch 'nombre_rama' + git checkout 'nombre_rama'
 
 # 4.0 - Proceso para borrar de forma local
-git checkout 'nombre_rama'
+git checkout 'otra_rama'
 git branch -d 'nombre_rama' |  git branch -D 'nombre_rama'
 
 # 5.0 - Proceso para borrar rama remota
 git push origin --delete 'nombre_rama'
+
+# 6.0 - Proceso para sincronizar rama local-remoto
+git push -u origin 'nombre_rama'
