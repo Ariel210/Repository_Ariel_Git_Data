@@ -13,3 +13,5 @@ git log --oneline --graph -> muestra contenido de los commits en una linea y de 
 
 ----------------------------
 git remote -v -> Comprobar el estado de los servidores de Git
+----------------------------
+git remote set-url origin NEW_URL -> Cambiar nombre de repositorio
